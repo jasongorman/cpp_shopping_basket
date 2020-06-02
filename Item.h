@@ -9,10 +9,6 @@ private:
 public:
     Item(float unitPrice, int quantity);
 
-    float getUnitPrice() const;
-
-    int getQuantity() const;
-
     float subtotal() const;
 };
 
